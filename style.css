@@ -118,7 +118,7 @@ body {
     color: var(--tertiary-color);
 }
 
-.experiencia #fecha {
+.experiencia .fecha {
     margin-top: 10px;
 }
 
