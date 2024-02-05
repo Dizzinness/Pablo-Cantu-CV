@@ -145,7 +145,7 @@ body {
 }
 
 .lista-de-habilidades li::before {
-    content: "\2605";
+    content: "\1F393";
     /* Código unicode de la estrellita */
     margin-right: 5px;
 }
