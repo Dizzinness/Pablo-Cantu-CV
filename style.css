@@ -72,7 +72,6 @@ body {
     border-radius: 50%;
 }
 
-
 .resumen,
 .experiencia,
 .comentario,
@@ -91,6 +90,7 @@ body {
 .comentario:hover,
 .lista-de-habilidades:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 10px var(--highlight-color);
 }
 
 .resumen,
@@ -145,6 +145,14 @@ a:hover {
     transform: scale(1.05);
     /* Remove empty rule set */
 
+}
+
+.comentario {
+    font-style: italic;
+}
+
+#parrafito {
+    margin: 0 5% 0 5%;
 }
 
 .enlace:hover {
